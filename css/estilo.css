@@ -1,0 +1,155 @@
+
+
+@font-face{/*1*/
+    font-family: soloist;
+    src: url(../fonts/soloist/soloist1.ttf);
+}
+
+@font-face{/*2*/
+    font-family: minecrafter;
+    src: url(../fonts/minecrafter/Minecrafter.Reg.ttf);
+}
+
+@font-face{/*3*/
+    font-family: giver_made;
+    src: url(../fonts/giver_made/Giver\ Made\ Italic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    background: #000;
+}
+
+body{
+    width: 750px;
+    height: 1000px;
+    background-color: rgb(196, 196, 196);
+    margin: auto;
+    
+    
+}
+
+section#banner{
+    width: 250px;
+    background: chartreuse;
+    height: 250px;
+    font-family: sololist;
+    float: left;
+}
+
+section#logo{
+    width: 250px;
+    background: crimson;
+    height: 250px;
+    font-family: minecrafter;
+    float: left;
+}
+section#login{
+    width: 250px;
+    background: blueviolet;
+    height: 250px;
+    font-family: giver_made;
+    float: left;
+}
+
+.caja{
+    position: relative;
+    display: inline;
+    background: bisque;
+}
+
+#uno{
+    position: absolute;
+    top: 20px; left: 5%;
+    
+}
+#dos{
+    position: absolute;
+    top: 20px; left: 5%;
+    
+}
+
+#tres{
+    position: absolute;
+    top: 20px; left: 5%;
+    
+}
+
+nav{
+    width: 750px; height: 250px;
+    background: #7715f8;
+    color: #000;
+    font-size: 20px;
+   
+}
+
+section#inicio{
+    width: 250px; height: 250px;
+    background: #40e70d;
+    float: left;
+}
+
+section#producto{
+    width: 250px; height: 250px;
+    background: #fc0a47;
+    float: left;
+}
+
+section#contacto{
+    width: 250px; height: 250px;
+    background: #f5d000;
+    float: left;
+}
+
+main{
+    width: 750px; height: 250px;
+    font-size:  20px;
+    color: #cdfc0a;
+    font-family: minecrafter;
+}
+
+aside#hoy{
+    width: 250px; height: 250px;
+    background: #0aebcd;
+    float: left;
+}
+article#novedades{
+    width: 250px; height: 250px;
+    background: #ff1174;
+    float: left;
+}
+aside#international{
+    width: 250px; height: 250px;
+    background: #e992ff;
+    float: left;
+}
+
+footer{
+    width: 750px; height: 250px;
+    font-size:  20px;
+    color: #cdfc0a;
+    font-family: soloist;
+}
+
+aside#creditos{
+    width: 250px; height: 250px;
+    background: #9b61dd59;
+    float: left;
+}
+article#lugar{
+    width: 250px; height: 250px;
+    background: #f3afcb;
+    float: left;
+}
+aside#correo{
+    width: 250px; height: 250px;
+    background: #8d6477;
+    float: left;
+}
+
+
